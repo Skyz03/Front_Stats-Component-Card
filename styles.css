@@ -1,15 +1,35 @@
 body {
   margin: 5%;
+  background-color: black;
+}
+
+.main-div {
+  background-color: purple;
+  margin: 0 5%;
+}
+
+.text-section {
+  height: 100%;
+  width: 40%;
+  float: left;
+  color: white;
+  margin: 5%;
+}
+
+img-section {
+  width: 60%;
+  position: relative;
+  bottom: 555px;
 }
 
 .attribution {
   font-size: 11px;
-  text-align: center;
+  text-align: right;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 45px;
 }
